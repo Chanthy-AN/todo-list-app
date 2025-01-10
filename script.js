@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const todoInput = document.getElementById("todo-input");
     const todoList = document.getElementById("todo-list");
 
-    // Add a new task
+    // Add new task
     todoForm.addEventListener("submit", (e) => {
         e.preventDefault();
         const taskText = todoInput.value.trim();
